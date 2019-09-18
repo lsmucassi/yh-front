@@ -852,13 +852,13 @@ html,body{
     padding: 10px 22px 0;
     font-weight: 500;
     font-size:48px;
-    color: #fff;
+    color: #FFEA00;
     font-family: 'Poppins', sans-serif;
 }/* campaign-timer */
 
 /*.discount-offer-btn*/
 .about-view.discount-offer-btn{
-    color: #fff;
+    color: #FFEA00;
     max-width: 160px;
     margin: 0 auto;
 }/*.discount-offer-btn*/
@@ -904,7 +904,7 @@ html,body{
     left: 0;
     width: 100%;
     height: 1px;
-    background: #ebebeb;
+    background: #FFEA00;
 }
 .packages-para{
     padding:17px 0 0;
@@ -935,7 +935,7 @@ html,body{
     width: 110px;
     height: 35px;
     font-size: 14px;
-    color: #fff;
+    color: #FFEA00;
     text-transform: capitalize;
     -webkit-transition: .5s; 
     -moz-transition:.5s; 
