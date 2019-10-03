@@ -1130,7 +1130,6 @@ html,body{
 }
 /*single-special-offer*/
 
-
 .packages-para.special-offer-para p{
     color: #fff;
 }
@@ -1163,6 +1162,130 @@ html,body{
     color: #fff;
     margin-right: 25px;
 }
+
+/*--------------------------------------------
+        10.1  Special-Offer-one [lite/tours]
+----------------------------------------------*/
+.special-offer-one{
+    position: relative;
+    background: url(../../assets/images/yellhat-img/yh_beach.jpg)no-repeat center;
+    /* background: rgba(30, 31, 32, 0.6); */
+    background-size: cover;
+    z-index: 1;
+}
+.special-offer-one:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(19, 70, 90, 0.767);
+    z-index: -1;
+}
+
+/*.single-special-offer-bg*/
+.single-special-offer-bg-one {
+    margin-top: -1px;
+    position: relative;
+    padding-bottom: 42px;
+    z-index: -1;
+}
+.single-special-offer-bg-one:before {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(157, 255, 0, 0.7);
+    z-index: 1;
+}
+.single-special-offer-bg-one img {
+    height: 807px;
+}
+
+.single-special-shape-txt-one {
+    position: absolute;
+    top: 60px;
+    left:62px;
+}
+.single-special-shape-txt-one h3,
+.single-special-shape-txt-one h4{
+    color: #FFEA00;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.single-special-shape-txt-one h4{
+    text-transform: uppercase;
+    margin: 174px 0;
+    line-height: 1.3;
+}
+.single-special-shape-txt-one h4 span{
+    font-size: 60px;
+}
+.single-special-shape-txt-one p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.single-special-shape-txt-one p span{
+    font-size: 60px;
+    font-weight: 700;
+}/*.single-special-offer-bg*/
+
+/*single-special-offer*/
+.single-special-offer-txt-one{
+    padding: 172px 0 0;
+}
+.single-special-offer-one h2{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+
+.packages-para.special-offer-para-one p{
+    color: #fff;
+}
+.packages-para.special-offer-para-one p span{
+    display: inline;
+    color: #fff;
+    width: 100%;
+    margin-right: 25px;
+}
+.offer-para-one{
+    margin-top: 31px;
+    text-transform: initial;
+    line-height: 2;
+}
+
+.packages-review.special-offer-review-one {
+    margin-bottom: 13px;
+}
+.packages-review.special-offer-review-one span{
+    color: #fff;
+}
+
+.offer-btn-group-one{
+    display: flex;
+    margin-top: -10px;
+}
+.about-view.packages-btn.offfer-btn-one{
+    background: transparent;
+    border:1px solid #fff;
+    color: #fff;
+    margin-right: 25px;
+}
+
+/*single-special-offer-one*/
+
+
 /*-------------------------------------
         11. Blog
 --------------------------------------*/
