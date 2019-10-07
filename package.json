@@ -1,0 +1,21 @@
+{
+  "name": "yellowtravels",
+  "version": "1.0.0",
+  "description": "travel agency",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsmucassi/yh-front.git"
+  },
+  "author": "cruize_labs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsmucassi/yh-front/issues"
+  },
+  "homepage": "https://github.com/lsmucassi/yh-front#readme"
+}
