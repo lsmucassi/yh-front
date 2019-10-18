@@ -1,7 +1,7 @@
 console.log("it works");
 
 $(document).ready(function () {
-    $('.contsubmit').clic(function (event) {
+    $('.contsubmit').click(function (event) {
         event.preventDefault();
     })
 })
