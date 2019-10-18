@@ -14,6 +14,7 @@
 
 		<!-- TITLE OF SITE -->
 		<title>Yellow Hat | Contact</title>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 		<!-- favicon img -->
 		<link rel="shortcut icon" type="image/icon" href="./assets/logo/favicon.png"/>
 		<!--font-awesome.min.css-->
@@ -39,6 +40,7 @@
 		<link rel="stylesheet" href="./assets/css/style.css" />
 		<!--responsive.css-->
 		<link rel="stylesheet" href="./assets/css/responsive.css" />
+		<script src="./assets/js/main.js"></script>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -112,44 +114,46 @@
 											<div class="row">
 													<h4 style="text-align:center">We'd love to hear from you!</h4>
 											</div>
-											<div class="row input-container">
-													<div class="col-xs-12">
-														<div class="styled-input wide">
-															<input type="text" required />
-															<label>Name</label> 
+											<form action="">
+												<div class="row input-container">
+														<div class="col-xs-12">
+															<div class="styled-input wide">
+																<input type="text" required />
+																<label>Name</label> 
+															</div>
 														</div>
-													</div>
-													<div class="col-md-6 col-sm-12">
-														<div class="styled-input">
-															<input type="text" required />
-															<label>Email</label> 
+														<div class="col-md-6 col-sm-12">
+															<div class="styled-input">
+																<input type="email" required />
+																<label>Email</label> 
+															</div>
 														</div>
-													</div>
-													<div class="col-md-6 col-sm-12">
-														<div class="styled-input" style="float:right;">
-															<input type="text" required />
-															<label>Phone Number</label> 
+														<div class="col-md-6 col-sm-12">
+															<div class="styled-input" style="float:right;">
+																<input type="text" required />
+																<label>Phone Number</label> 
+															</div>
 														</div>
-													</div>
-													<div class="col-xs-12">
-														<div class="styled-input wide">
-															<textarea required></textarea>
-															<label>Message</label>
+														<div class="col-xs-12">
+															<div class="styled-input wide">
+																<textarea required></textarea>
+																<label>Message</label>
+															</div>
 														</div>
-													</div>
-													<div class="col-xs-12 offer-btn-group-one">
-														<div class="about-btn">
-															<button onclick="window.location.href = '../index.html#pack';" class="about-view packages-btn offfer-btn-one">
-																go back
-															</button>
-														</div><!--/.about-btn-->
-														<div class="about-btn">
-															<button onclick="window.location.href = '../contact.html';" class="about-view packages-btn">
-																send
-															</button>
-														</div><!--/.about-btn-->
-													</div><!--/.offer-btn-group-->
-											</div>
+														<div class="col-xs-12 offer-btn-group-one">
+															<div class="about-btn">
+																<button onclick="window.location.href = '../index.html#pack';" class="about-view packages-btn offfer-btn-one">
+																	go back
+																</button>
+															</div><!--/.about-btn-->
+															<div class="about-btn">
+																<button onclick="window.location.href = '../contact.html';" class="about-view packages-btn contsubmit">
+																	send
+																</button>
+															</div><!--/.about-btn-->
+														</div><!--/.offer-btn-group-->
+												</div>
+											</form>
 										<!-- </div> -->
 									</div>
 									<!--/.packages-para-->
