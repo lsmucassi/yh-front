@@ -1706,7 +1706,7 @@ h4 {
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
     font-size: 0.85em;
-    color: rgb(248, 245, 245);
+    color: rgb(41, 41, 32);
     top: -5px;
     -webkit-transition: all 0.225s ease;
     transition: all 0.225s ease;
