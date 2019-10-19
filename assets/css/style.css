@@ -1213,19 +1213,22 @@ html,body{
     left:62px;
 }
 .single-special-shape-txt-one h3,
-.single-special-shape-txt-one h4{
+.single-special-shape-txt-one h4,
+.single-special-shape-txt-one h6 {
     color: #FFEA00;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     text-align: center;
 }
-.single-special-shape-txt-one h4{
+.single-special-shape-txt-one h4,
+.single-special-shape-txt-one h6 {
     text-transform: uppercase;
     margin: 174px 0;
     line-height: 1.3;
 }
-.single-special-shape-txt-one h4 span{
+.single-special-shape-txt-one h4 span,
+.single-special-shape-txt-one h6 span{
     font-size: 60px;
 }
 .single-special-shape-txt-one p{
@@ -1749,7 +1752,7 @@ textarea {
     width: 100%;
     font-size: 1.5rem;
     background-color: #ffffff;
-    color: white;
+    color: rgb(15, 15, 15);
     border-radius: 4px;
 }
 
