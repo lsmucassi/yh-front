@@ -1,27 +1,36 @@
 console.log("it works");
 
+
+
 $(document).ready(function () {
     $('.contsubmit').click(function (event) {
         event.preventDefault();
 
-        var name, email, phone_number, subject, message, status;
+        var name = $('.contname'), 
+            email = $('.contmail'), 
+            phone = $('.contnum'), 
+            subject = $('.contsubj'), 
+            message = $('.message'), 
+            status = $('.status');
+        
+        status.empty();
 
         if (email.length > 5 && email.include('@') && email.include('.')) {
-            //status
+            status.append('mail is valid');
         } else {
-            //status
+            status.append('mail not valid');
         }
 
         if (subject.length >= 2) {
-            //status
+            status.append('subject is valid');
         } else {
-            //status
+            status.append('subject is valid');
         }
 
         if (message.length >= 20) {
-            //status
+            status.append('message is valid');
         } else {
-            //status
+            status.append('message is valid');
         }
     })
 })

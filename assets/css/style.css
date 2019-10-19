@@ -127,6 +127,8 @@ html,body{
 
 }
 
+/*====================================*/
+
 
 
 /*=============Style css=========*/
@@ -1725,7 +1727,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 }
 
 .styled-input label {
-    color: rgb(250, 234, 14);
+    color: rgba(0,122,207);    ;
     padding: 1.3rem 30px 1rem 30px;
     position: absolute;
     top: 10px;
@@ -1746,7 +1748,7 @@ textarea {
     border: 0;
     width: 100%;
     font-size: 1.5rem;
-    background-color: #635c5cc0;
+    background-color: #ffffff;
     color: white;
     border-radius: 4px;
 }
