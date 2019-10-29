@@ -5,11 +5,11 @@ console.log("it works");
 $(document).ready(function () {
     $('.contsubmit').click(function (event) {
 
-        var name = $('.contname'), 
-            email = $('.contmail'), 
-            phone = $('.contnum'), 
-            subject = $('.contsubj'), 
-            message = $('.message'), 
+        var name = $('.name').val(), 
+            email = $('.email').val(), 
+            phone = $('.phone').val(), 
+            subject = $('.subject').val(), 
+            message = $('.message').val(), 
             status = $('.status');
         
         status.empty();

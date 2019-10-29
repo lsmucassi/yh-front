@@ -17,6 +17,10 @@
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 		<!-- favicon img -->
 		<link rel="shortcut icon" type="image/icon" href="./assets/logo/favicon.png"/>
+		<link rel="manifest" href="./assets/logo/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="./assets/logo/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
 		<!--font-awesome.min.css-->
 		<link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
 		<!--animate.css-->
@@ -114,35 +118,35 @@
 											<div class="row">
 													<h4 style="text-align:center">We'd love to hear from you!</h4>
 											</div>
-											<form action="https://formspree.io/lindasmucassi@gmail.com" method="POST">
+											<form action="https://formspree.io/yellowhattravels@gmail.com" method="POST">
 												<div class="row input-container">
 														<div class="col-xs-12">
 															<div class="styled-input wide">
-																<input type="text" class="contname" required />
+																<input type="text" name="name" class="name" required />
 																<label>Name</label> 
 															</div>
 														</div>
 														<div class="col-md-6 col-sm-12">
 															<div class="styled-input">
-																<input type="email" class="contmail" required />
+																<input type="email" name="email" class="email" required />
 																<label>Email</label> 
 															</div>
 														</div>
 														<div class="col-md-6 col-sm-12">
 															<div class="styled-input" style="float:right;">
-																<input type="text" class="contnum" required />
+																<input type="text" name="phone" class="phone" required />
 																<label>Phone Number</label> 
 															</div>
 														</div>
 														<div class="col-xs-12">
 															<div class="styled-input wide">
-																<input type="text" class="contsubj" required />
+																<input type="text" name="subject" class="subject" required />
 																<label>Subject</label> 
 															</div>
 														</div>
 														<div class="col-xs-12">
 															<div class="styled-input wide">
-																<textarea class="message" required></textarea>
+																<textarea name="message" class="message" required></textarea>
 																<label>Message</label>
 															</div>
 														</div>
