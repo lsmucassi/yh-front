@@ -1171,6 +1171,7 @@ html,body{
 ----------------------------------------------*/
 .special-offer-one{
     position: relative;
+    padding-bottom: 20px;
     background: url(../../assets/images/yellhat-img/yh_beach.jpg)no-repeat center;
     /* background: rgba(30, 31, 32, 0.6); */
     background-size: cover;
@@ -1178,6 +1179,7 @@ html,body{
 }
 .special-offer-one:after{
     position: absolute;
+    padding-bottom: 20px;
     content: "";
     top: 0;
     left:0;
@@ -1189,6 +1191,7 @@ html,body{
 
 .special-offer-one-s{
     position: relative;
+    padding-bottom: 20px;
     /* background: url(../../assets/images/yellhat-img/yh_beach.jpg)no-repeat center; */
     /* background: rgba(30, 31, 32, 0.6); */
     background-size: cover;
@@ -1196,6 +1199,7 @@ html,body{
 }
 .special-offer-one-s:after{
     position: absolute;
+    padding-bottom: 20px;
     content: "";
     top: 0;
     left:0;
@@ -1273,6 +1277,13 @@ html,body{
     margin-bottom: 22px;
 }
 
+.single-special-offer-one h4{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
 
 .packages-para.special-offer-para-one p{
     color: #fff;
