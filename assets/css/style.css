@@ -1285,6 +1285,14 @@ html,body{
     margin-bottom: 22px;
 }
 
+.single-special-offer-one h5{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
 .packages-para.special-offer-para-one p{
     color: #fff;
 }
