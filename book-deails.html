@@ -13,32 +13,38 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 
 		<!-- TITLE OF SITE -->
-		<title>Yellow Hat | Rome & Santorini</title>
+		<title>Yellow Hat | Booking Details</title>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 		<!-- favicon img -->
-		<link rel="shortcut icon" type="image/icon" href="../assets/logo/favicon.png"/>
+		<link rel="shortcut icon" type="image/icon" href="./assets/logo/favicon.png"/>
+		<link rel="manifest" href="./assets/logo/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="./assets/logo/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
 		<!--font-awesome.min.css-->
-		<link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
 		<!--animate.css-->
-		<link rel="stylesheet" href="../assets/css/animate.css" />
+		<link rel="stylesheet" href="./assets/css/animate.css" />
 		<!--hover.css-->
-		<link rel="stylesheet" href="../assets/css/hover-min.css">
+		<link rel="stylesheet" href="./assets/css/hover-min.css">
 		<!--datepicker.css-->
-		<link rel="stylesheet"  href="../assets/css/datepicker.css" >
+		<link rel="stylesheet"  href="./assets/css/datepicker.css" >
 
 		<!--owl.carousel.css-->
-        <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="../assets/css/owl.theme.default.min.css"/>
+        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="./assets/css/owl.theme.default.min.css"/>
 
 		<!-- range css-->
-        <link rel="stylesheet" href="../assets/css/jquery-ui.min.css" />
+        <link rel="stylesheet" href="./assets/css/jquery-ui.min.css" />
 		<!--bootstrap.min.css-->
-		<link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
 		<!-- bootsnav -->
-		<link rel="stylesheet" href="../assets/css/bootsnav.css"/>
+		<link rel="stylesheet" href="./assets/css/bootsnav.css"/>
 		<!--style.css-->
-		<link rel="stylesheet" href="../assets/css/style.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
 		<!--responsive.css-->
-		<link rel="stylesheet" href="../assets/css/responsive.css" />
+		<link rel="stylesheet" href="./assets/css/responsive.css" />
+		<script src="./assets/js/main.js"></script>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,7 +69,7 @@
 					<div class="row">
 						<div class="col-sm-2">
 							<div class="logo">
-								<a href="../index.html">
+								<a href="./index.html">
 									Yellow <span>Hat</span> Travels
 								</a>
 							</div><!-- /.logo-->
@@ -96,59 +102,43 @@
 		</header><!-- /.top-area-->
 		<!-- main-menu End -->
 
-        <!--special-offer start-->
-		<section id="spo" class="special-offer-one">
+        <!-- BOOKING DETAILS-->
+        <section id="spo" class="special-offer-one-s">
 			<div class="container">
-				<div class="special-offer-content-one">
+				<div class="special-offer-content-one-">
 					<div class="row">
 						<div class="col-sm-8">
-							<div class="single-special-offer-one">
+							<div class="single-special-offer-one ">
 								<div class="single-special-offer-txt-one">
-									<h2>Rome & Venice</h2>
-									<div class="packages-review special-offer-review-one">
+									<h4>Booking Details</h4>
+ 									<h5>Take the code of the trip you are 
+                                        booking, use it on the reference 
+                                        when paying the related fee for 
+                                        the trip</h5><hr/>
 										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
+											<h5 >Bank :  First National Bank</h5>
+											<h5 >Account Name :  Yellow Hat</h5>
+											<h5 >Account Number :  6275 1743 389</h5>
+                                            <h5 >Account Type :  Cheque</h5>
+                                            <h5 >Branch Code :  250655</h5>
+                                            <h5 >Branch Name :  WOODLANDS MALL</h5>
+                                            <h5 >Swift Code  : FIRNZAJJ</h5>
+                                            <h5 >Reference : YOUR NAME + PACKAGE CODE</h5>
+										</p> <hr/>
+											<h5>Note: If a package does not have  a code use 
+                                            it's name along with your name a reference</h5>
+									
 									<div class="packages-para special-offer-para-one">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 7 nights
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i> 3 star hotel
-											</span>
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i>  food facilities
-											</span>  
-										</p>
-										<p class="offer-para-one">
-											Rome is the capital of one of the world’s most powerful 
-											ancient empires. With its breathtaking buildings and 
-											monuments, incredible works of art, small-town charm, 
-											and world-renowned cuisine, it really is an outside museum. 
-											Combine this trip with the dream city of Venice and you will 
-											understand why Italy is Italy!
-										</p>
+										
 									</div><!--/.packages-para-->
 									<div class="offer-btn-group-one">
 										<div class="about-btn">
-											<button onclick="window.location.href = '../index.html#pack2';" class="about-view packages-btn offfer-btn-one">
+											<button onclick="window.location.href = './twenty.html';" class="about-view packages-btn offfer-btn-one">
 												go back
 											</button>
 										</div><!--/.about-btn-->
 										<div class="about-btn">
-											<button onclick="window.location.href = '../book-deails.html';" class="about-view packages-btn">
+											<button onclick="window.location.href = '../contact.html';" class="about-view packages-btn">
 												book now
 											</button>
 										</div><!--/.about-btn-->
@@ -162,9 +152,9 @@
 									<img src="../assets/images/offer/offer-shape.png" alt="offer-shape">
 								</div><!--/.single-special-offer-bg-->
 								<div class="single-special-shape-txt-one">
-									<h3>Yellow Lite Info</h3>
+									<h3>How To Book A Trip</h3>
 									<!-- <h4><span>40%</span><br>off</h4> -->
-									<p><span>R11 000</span>
+									<!--<p><span>R21 890</span> -->
 										<!-- <br>reguler R 14 050</p> -->
 								</div><!--/.single-special-shape-txt-->
 							</div><!--/.single-special-offer-->
@@ -174,36 +164,7 @@
 			</div><!--/.container-->
 
 		</section><!--/.special-offer end-->
-		<!--special-offer end-->
-
-		<!--subscribe start-->
-		<section id="subs" class="subscribe">
-			<div class="container">
-				<div class="subscribe-title text-center">
-					<h2>
-						Join our Subscribers List to Get Regular Update
-					</h2>
-					<p>
-						Subscribe Now. We will send you Best News and Trip Offers!
-					</p>
-				</div>
-				<form>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-							<div class="custom-input-group">
-								<input type="email" class="form-control" placeholder="Enter your Email Here">
-								<button class="appsLand-btn subscribe-btn">Subscribe</button>
-								<div class="clearfix"></div>
-								<i class="fa fa-envelope"></i>
-							</div>
-
-						</div>
-					</div>
-				</form>
-			</div>
-
-		</section>
-		<!--subscribe end-->
+		
 
 		<!-- footer-copyright start -->
 		<footer  class="footer-copyright">
@@ -212,14 +173,7 @@
 					<div class="row">
 
 						<div class="col-sm-3">
-							<div class="single-footer-item">
-								<div class="footer-logo">
-									<a href="../index.html">
-										Yellow <span>Hat</span> Travels
-									</a>
-									<p>
-										best travel agency
-									</p>
+							<div class="single-footer-item">PHUKET, KOH PHIPHI &amp; KRABI
 								</div>
 							</div><!--/.single-footer-item-->
 						</div><!--/.col-->
@@ -276,52 +230,38 @@
 		                <li><a href="https://twitter.com/YellowHatTravel?s=08" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
 		                <li><a href="https://instagram.com/yellowhattravels?igshid=2pm8zefmv5po" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
 		        	</ul>
-		        	<p>&copy; 2019 <a href="https://www.yellowhattravels.com">Yellow Hat Travels</a>. All Right Reserved</p>
+		        	<p>&copy; 2019 <a href="https://www.yellowhattravels.co.za">Yellow Hat Travels</a>. All Right Reserved</p>
 
 		        </div><!--/.foot-icons-->
 				<div id="scroll-Top">
 					<i class="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
 				</div><!--/.scroll-Top-->
 			</div><!-- /.container-->
-
 		</footer><!-- /.footer-copyright-->
         <!-- footer-copyright end -->
-        
-		<script src="../assets/js/jquery.js"></script>
+		<script src="./assets/js/jquery.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-
 		<!--modernizr.min.js-->
         <script  src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        
 		<!--bootstrap.min.js-->
-		<script  src="../assets/js/bootstrap.min.js"></script>
-
+		<script  src="./assets/js/bootstrap.min.js"></script>
 		<!-- bootsnav js -->
-		<script src="../assets/js/bootsnav.js"></script>
-
+		<script src="./assets/js/bootsnav.js"></script>
 		<!-- jquery.filterizr.min.js -->
-		<script src="../assets/js/jquery.filterizr.min.js"></script>
-
+		<script src="./assets/js/jquery.filterizr.min.js"></script>
 		<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
 		<!--jquery-ui.min.js-->
-        <script src="../assets/js/jquery-ui.min.js"></script>
-
+        <script src="./assets/js/jquery-ui.min.js"></script>
         <!-- counter js -->
-		<script src="../assets/js/jquery.counterup.min.js"></script>
-		<script src="../assets/js/waypoints.min.js"></script>
-
+		<script src="./assets/js/jquery.counterup.min.js"></script>
+		<script src="./assets/js/waypoints.min.js"></script>
 		<!--owl.carousel.js-->
-        <script  src="../assets/js/owl.carousel.min.js"></script>
-
+        <script  src="./assets/js/owl.carousel.min.js"></script>
         <!-- jquery.sticky.js -->
-		<script src="../assets/js/jquery.sticky.js"></script>
-
+		<script src="./assets/js/jquery.sticky.js"></script>
         <!--datepicker.js-->
-        <script  src="../assets/js/datepicker.js"></script>
-
+        <script  src="./assets/js/datepicker.js"></script>
 		<!--Custom JS-->
-		<script src="../assets/js/custom.js"></script>
-
+		<script src="./assets/js/custom.js"></script>
 	</body>
 </html>
