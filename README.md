@@ -21,4 +21,5 @@ This project aims to put the above statement to a digital reality. A webapp wher
 - Yellow Lux : Yellow Lux travel package(trips for non budget travellers)
 - Login : The log in will provide personalized experiences for users. When a user logins the system must determine if the user is a regular(non-JWT) or a JWT Traveller, if a traveller is a JWT traveller they will be provided with trips that are catered for them and if not then every user gets a normal profile page where they can see a "CART, FAVORITES & PERSONAL INFORMATION)
 - Cart : User's travel packages ready for payment, if from here a user pays the site must take them to a checkout page to confirm order and their contact details.Users will then receive an email confirming recipient of their order.
-- Favorites : A page with all 'hearted' trips or likes trips by the user ready for purchase or to move to cart
+- Favorites : A page with all 'hearted' trips or likes trips by the user ready for purchase or to move to cart.
+- Profile : All the settings a user needs to personalize their account. Contains also links to Previous trips, favorites, cart, and more.
