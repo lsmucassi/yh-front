@@ -11,9 +11,9 @@ As Travel Planners and Tour Operators our job and concern is to take care of eve
 
 ### About Project
 
-This project aims to put the above statement to a digital reality. A webapp where users can see available trips and tours, book a trip online and get in contact to the organisers and make EFT payments.
+This project aims to put the above statement to a digital reality. A webApp where users can see available trips and tours, book a trip online and get in contact to the organizers and make EFT payments.
 
-##### tabs on the webapp
+##### tabs on the webApp
 - **Home** : The landing page where any user can see information about the Company and all public travel packages and all relevant info such as contact details...
 - **About** Us : An about section containing information about the company and their contact info
 - **Group** Tours : Containing tours for group travels
