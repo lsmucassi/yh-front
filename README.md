@@ -23,3 +23,11 @@ This project aims to put the above statement to a digital reality. A webapp wher
 - Cart : User's travel packages ready for payment, if from here a user pays the site must take them to a checkout page to confirm order and their contact details.Users will then receive an email confirming recipient of their order.
 - Favorites : A page with all 'hearted' trips or likes trips by the user ready for purchase or to move to cart.
 - Profile : All the settings a user needs to personalize their account. Contains also links to Previous trips, favorites, cart, and more.
+
+## Tech/Frameworks & Build
+The project will use A front-end framework( to be confirmed) and a back-end REST API to cater for a personalized experience and handle all functionalities.
+- Angular/React
+- Python
+- MongoDB
+- Hosting with Axxess
+
