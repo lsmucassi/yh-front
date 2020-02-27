@@ -3,6 +3,7 @@ from flask import jsonify
 from flask import request
 from flask_pymongo import PyMongo
 import uuid
+import bookings
 
 app = Flask(__name__)
 
@@ -51,7 +52,14 @@ def get_tours():
 
     for tour in tours.find():
         t.append({
-
+            'id': tour['id'],
+            'name': tour['name'],
+            'price': tour['damage'],
+            'accommodation': {
+                'duration': tour['accommodation']['duration'],
+                'facilities': tour['accommodation']['facilities'],
+                'travel': tour['accommodation']['travel']
+            }
         })
 
     return jsonify({'result': t})
