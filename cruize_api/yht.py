@@ -35,6 +35,7 @@ def get_places():
         p.append({
             'id': place['id'],
             'name': place['name'],
+            'continent': place['continent'],
             'price': place['damage'],
             'accommodation': {
                 'type': place['accommodation']['type'],
@@ -54,6 +55,7 @@ def get_tours():
         t.append({
             'id': tour['id'],
             'name': tour['name'],
+            'continent': tour['continent'],
             'price': tour['damage'],
             'accommodation': {
                 'duration': tour['accommodation']['duration'],
