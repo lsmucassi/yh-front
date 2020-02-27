@@ -25,6 +25,42 @@ def get_all_continents():
 
     return jsonify({'result': continents})
 
+@app.route('/continents/places', methods=['GET'])
+def get_places():
+    places = mongo.db.Places
+    p = []
+
+    for place in places.find():
+        p.append({
+            'id': place['id'],
+            'name': place['name'],
+            'price': place['damage'],
+            'accommodation': {
+                'type': place['accommodation']['type'],
+                'nights': place['accommodation']['nights'],
+                'facilities': place['accommodation']['facilities'],
+                'travel': place['accommodation']['travel']
+            }
+        })
+    return jsonify({'result': p})
+
+@app.route('/continents/tours', methods=['GET'])
+def get_tours():
+    tours = mongo.db.Tours
+    t = []
+
+    for tour in tours.find():
+        t.append({
+
+        })
+
+    return jsonify({'result': t})
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+    
+
 # @app.route('/continents/create', methods=['POST'])
 # def add_continent():
 #     continent = mongo.db.Continents
@@ -48,15 +84,3 @@ def get_all_continents():
 #             'places': new_continent['places']
 #         }
 #     })
-
-@app.route('/continents/countries', methods=['GET'])
-def get_countries():
-    return jsonify({'result': {}})
-
-@app.route('/continents/countries/cities', methods=['GET'])
-def get_countries(): 
-
-    return jsonify({'result': {}})
-
-if __name__ == '__main__':
-    app.run(debug=True)
